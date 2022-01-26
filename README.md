@@ -1,2 +1,2 @@
 # sense_radio
-a radio
+a radio made by Nest Media
