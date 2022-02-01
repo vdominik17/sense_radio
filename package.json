@@ -22,6 +22,7 @@
     "ionicons": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-jss": "^10.9.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
@@ -66,7 +67,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.3.3",
-    "@molitio/ui-core": "^0.3.0-alpha.0"
+    "@molitio/ui-core": "^0.5.5-alpha.0"
   },
   "description": "An Ionic project"
 }
