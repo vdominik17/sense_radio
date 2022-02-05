@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.3.3",
-    "@molitio/ui-core": "^0.5.5-alpha.0"
+    "@molitio/ui-core": "^0.6.0-alpha.0"
   },
   "description": "An Ionic project"
 }

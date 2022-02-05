@@ -2,7 +2,7 @@ import { Redirect, Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import Home from "./pages/Home";
-import { RadioPage, ThemeContextProvider } from "@molitio/ui-core";
+import { RadioPage, StyledThemeContextProvider } from "@molitio/ui-core";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -28,7 +28,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <ThemeContextProvider themeName={ThemeNameTags.BLACK_YELLOW}>
+    <StyledThemeContextProvider themeName={ThemeNameTags.BLACK_YELLOW}>
       <IonReactRouter>
         <IonRouterOutlet>
           <Route exact path="/home">
@@ -36,8 +36,6 @@ const App: React.FC = () => (
               radio={{
                 playUrl:
                   "https://s3.eu-west-1.amazonaws.com/filestore.molitio.org/nest-media/sense-radio/audio-store/chill-abstract-12099.mp3",
-                backgroundImage: "",
-                assetUrls: new Map<string, string>(),
               }}
             />
           </Route>
@@ -46,7 +44,7 @@ const App: React.FC = () => (
           </Route>
         </IonRouterOutlet>
       </IonReactRouter>
-    </ThemeContextProvider>
+    </StyledThemeContextProvider>
   </IonApp>
 );
 
