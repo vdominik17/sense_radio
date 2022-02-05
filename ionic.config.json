@@ -1,7 +1,0 @@
-{
-  "name": "sense_radio",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
