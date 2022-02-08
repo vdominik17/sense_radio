@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { SenseRadio } from "./SenseRadio";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
+import "./styles.module.css";
 
 ReactDOM.render(
   <React.StrictMode>
